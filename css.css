@@ -1,0 +1,185 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  color: aliceblue;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+/* NAV */
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 2rem;
+  padding-left:2rem;
+  padding-right:2rem;
+}
+
+.nav-btns {
+  display: flex;
+  gap: 1.4rem;
+}
+
+.btna11 {
+  width: 16vw;
+  padding: 0.5rem 1rem;
+  border-radius: 9px;
+  background-color: rgba(0, 0, 0, 0.558);
+  color: aliceblue;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  cursor: pointer;
+}
+
+.btna12 {
+  width: 12vw;
+  padding: 0.5rem 1rem;
+  border-radius: 9px;
+  background-color: rgb(182, 26, 26);
+  color: aliceblue;
+  border: 2px solid rgb(223, 29, 29);
+  font-size: 1rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+/* HERO */
+.main-data {
+  position: relative;
+  background: url('imgs/netflixbg.jpg') center / cover no-repeat;
+  min-height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-content-11 {
+  display: flex;
+  justify-content: center;
+  font-size: x-large;
+  padding: 2rem;
+}
+
+.main-content-12 {
+  max-width: 600px;
+  text-align: center;
+}
+
+.main-content-12 h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.main-content-12 p {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.inner-main-data {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.inner-main-data-input {
+  margin-right: 1rem;
+  height: 3.2rem;
+  text-align: center;
+  width: 250px;
+  border-radius: 4px;
+  border: none;
+  font-size: 1rem;
+}
+
+.inner-main-data-btn {
+  height: 3.2rem;
+  width: 140px;
+  border-radius: 4px;
+  background-color: rgb(229, 9, 20);
+  color: white;
+  border: none;
+  font-size: 1rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+/* TRENDING */
+.trending {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  padding: 3rem 2rem;
+}
+
+.trending-div {
+  padding: 0.6rem 1.2rem;
+  border-radius: 20px;
+  background-color: rgba(255, 255, 255, 0.1);
+  font-size: 0.9rem;
+}
+
+/* BENEFITS */
+.benefits {
+  display: flex;
+  gap: 1.5rem;
+  padding: 3rem 4rem;
+
+}.benefits div{
+ 
+  border-radius: 10px;
+  background-color: rgba(38, 9, 66, 0.699);
+  padding: 1.8rem;
+  border: 2px solid rgb(230, 224, 224) ;
+}
+
+.benefits h5 {
+  font-size: 1.4rem;
+  margin-bottom: 0.5rem;
+}
+
+.benefits p {
+  font-size: 0.95rem;
+  color: #ccc;
+}
+
+/* FAQ */
+.faq {
+  max-width: 90vw;
+  margin:1rem;
+    padding: 3rem 4rem;
+  font-size: x-large;
+}
+
+.faq-item {
+  background-color: rgb(62, 62, 62);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.2rem 1rem;
+  border: 1px solid rgb(62, 62, 62);
+  margin-bottom: 0.5rem;
+  cursor: pointer;
+}
+
+.faq-icon {
+  font-size:2rem;
+}   
+
+
+
+
+
+
+@media(max-width: 850px){
+  .benefits{
+   display: grid;
+
+  }
+  
+}
